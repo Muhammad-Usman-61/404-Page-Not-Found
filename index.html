@@ -5,19 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>404 Page Not Found</title>
+    <link
+      rel="shortcut icon"
+      href="content/page-not-found.png"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <section class="page">
-      <div class="background">
-        <h1>404 Page Not Found</h1>
-      </div>
-      <div class="content">
-        <h2>Look like you're lost</h2>
-        <p>The page you are looking for is not avaiable!</p>
-        <a href="/" class="button">Go Home</a>
-      </div>
-    </section>
+    <div class="container">
+      <h1>404 Page Not Found</h1>
+      <video autoplay muted loop class="video">
+        <source type="video/webm" src="content/dribble.webm" />
+      </video>
+    </div>
+    <div class="content">
+      <h2>Look like you're lost</h2>
+      <p>The page you are looking for is not avaiable!</p>
+      <a href="/" class="button">Go Home</a>
+    </div>
   </body>
 </html>
